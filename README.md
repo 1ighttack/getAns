@@ -1,23 +1,22 @@
-# getAns
-ip反查域名+备案可批量,护网溯源日常专用
-win下有编译好exe，在命令窗口运行
+**getAns**
 
-# 环境
+ip反查归属地+域名+可批量,护网溯源日常专用
+win下有编译好exe在Releases里可直接下载，要命令窗口运行
+
+**环境**
+
 Python3
 
-# 使用
-帮助
+**帮助**
 python3 getAns.py -h
 getAsn.py -u <220.181.38.251>
 getAsn.py -l <list.txt>
 
-单个ip
+**单个ip**
 python3 getAns.py -u 220.181.38.251
 
-批量
+**批量**
 python3 getAns.py -l list.txt
-
-
 
 
 
