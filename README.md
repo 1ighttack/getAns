@@ -8,9 +8,9 @@ win下有编译好exe在Releases里可直接下载，要命令窗口运行
 Python3
 
 **帮助**
-python3 getAns.py -h
-getAsn.py -u <220.181.38.251>
-getAsn.py -l <list.txt>
+python3 getAns.py -h<br>
+getAsn.py -u <220.181.38.251><br>
+getAsn.py -l <list.txt><br>
 
 **单个ip**
 python3 getAns.py -u 220.181.38.251
