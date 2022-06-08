@@ -1,4 +1,4 @@
-import requests, time, sys, getopt, random, json, re
+import requests, time, sys, getopt, random, re
 
 def main(argv):
    try:
