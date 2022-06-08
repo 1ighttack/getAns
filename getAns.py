@@ -50,7 +50,7 @@ def liet(file):
             r = i.strip("\n")
             check(r)
             domain(r)
-            print("==============分隔符(域名反查默认输出两个想看更多访问webscan.cc）==============")
+            print("==============分隔符(域名反查默认输出前两个，看更多访问webscan.cc）==============")
 
 def domain(targtes):
     user_agent_list = [
