@@ -1,7 +1,8 @@
 # getAns
 
-ip反查归属地+域名+可批量,护网溯源日常专用
-win下有编译好exe在Releases里可直接下载，要命令窗口运行
+ip反查归属地+域名+可批量,护网溯源日常专用<br>
+win下有编译好的exe在Releases里可直接下载，在cmd命令窗口运行<br>
+师傅们多多start呀🥳
 
 # 环境
 
