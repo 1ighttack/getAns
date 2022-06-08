@@ -13,10 +13,10 @@ getAsn.py -u <220.181.38.251><br>
 getAsn.py -l <list.txt><br>
 
 **单个ip**
-python3 getAns.py -u 220.181.38.251
+python3 getAns.py -u 220.181.38.251<br>
 
 **批量**
-python3 getAns.py -l list.txt
+python3 getAns.py -l list.txt<br>
 
 
 
