@@ -1,15 +1,23 @@
-# IP-Domain-batch
-ip批量反查域名+备案
+# getAns
+ip反查域名+备案可批量,护网溯源日常专用
+win下有编译好exe，在命令窗口运行
 
-脚本使用Python3环境
+# 环境
+Python3
 
-支持任意格式ip
+# 使用
+帮助
+python3 getAns.py -h
+getAsn.py -u <220.181.38.251>
+getAsn.py -l <list.txt>
 
-ip放到iplist.txt
-运行结果会存在result.txt
+单个ip
+python3 getAns.py -u 220.181.38.251
 
-由于脚本运行速度比较慢所以请耐心等待（懂多线程的师傅非常感谢帮忙更改
-![image](https://user-images.githubusercontent.com/71672296/120420483-fce04900-c396-11eb-901a-45930669e626.png)
+批量
+python3 getAns.py -l list.txt
+
+
 
 
 
