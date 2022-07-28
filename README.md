@@ -1,7 +1,6 @@
 # getAns
-
-ip反查归属地+域名+可批量,护网溯源日常专用<br>
-win下有编译好的exe在Releases里可直接下载，可在cmd命令窗口运行<br>
+简介：<br>
+由于作者比较懒，于是它就诞生了，脚本可用于ip反查归属地+域名+可批量+查询本机公网ip,护网查归属溯源日常专用<br>
 师傅们多多start呀🥳
 
 # 环境
@@ -21,7 +20,7 @@ python3 getAns.py -u 220.181.38.251 <br>
 # 批量<br>
 python3 getAns.py -l list.txt <br>
 
-# 本机ip<br>
+# 本机公网ip<br>
 python3 getAns.py -i <br>
 
 # 说明：
