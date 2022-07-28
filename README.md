@@ -5,7 +5,9 @@ win下有编译好的exe在Releases里可直接下载，可在cmd命令窗口运
 师傅们多多start呀🥳
 
 # 环境
-Python3
+Python3<br>
+初次启动安装依赖:<br>
+
 
 # 帮助<br>
 python3 getAns.py -h <br>
