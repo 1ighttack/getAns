@@ -24,5 +24,13 @@ python3 getAns.py -l list.txt <br>
 # 本机ip<br>
 python3 getAns.py -i <br>
 
+# 说明：
+windows下暂时没有解决高亮输出<br>
+mac下可以高亮输出<br>
+
+# 作者空了会添加以下功能：
+微步输出[]<br>
+多线程批量请求[]<br>
+通过域名反查企业[]<br>
 
 注：请不要将该脚本用于非法用途，由于使用工具带来的不良后果与本人无关。
