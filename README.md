@@ -7,7 +7,7 @@ win下有编译好的exe在Releases里可直接下载，可在cmd命令窗口运
 # 环境
 Python3<br>
 初次启动安装依赖:<br>
-
+python3 -m pip install -r lib.txt<br>
 
 # 帮助<br>
 python3 getAns.py -h <br>
