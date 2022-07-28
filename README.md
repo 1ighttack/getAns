@@ -10,9 +10,9 @@ python3 -m pip install -r lib.txt<br>
 
 # 帮助<br>
 python3 getAns.py -h <br>
-python3 getAsn.py -u <220.181.38.251><br>
-python3 getAsn.py -l <list.txt><br>
-python3 getAsn.py -i <br>
+python3 getAsn.py -u <220.181.38.251> 单个ip反查<br>
+python3 getAsn.py -l <list.txt>       批量查询，一行一个<br>
+python3 getAsn.py -i                  本机公网ip<br>
 
 # 单个ip<br>
 python3 getAns.py -u 220.181.38.251 <br>
