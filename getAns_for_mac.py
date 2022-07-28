@@ -6,12 +6,12 @@ def main(argv):
        opts, args = getopt.getopt(argv,"-h-i-u:-l:",["help","url=","list=","ip"])
    except getopt.GetoptError:
       log()
-      print ("getAsn.py -u <220.181.38.251>\ngetAsn.py -l <list.txt>")
+      print ("getAsn.py -u <220.181.38.251> 单个ip反查\ngetAsn.py -l <list.txt>       批量请求\ngetAsn.py -i                   本机公网ip")
       sys.exit(2)
    for opt, arg in opts:
        if opt in ("-h","--help"):
            log()
-           print ("getAsn.py -u <220.181.38.251>\ngetAsn.py -l <list.txt>")
+           print ("getAsn.py -u <220.181.38.251> 单个ip反查\ngetAsn.py -l <list.txt>       批量请求\ngetAsn.py -i                   本机公网ip")
            sys.exit()
        if opt in ("-u", "--url"):
            check(arg)
