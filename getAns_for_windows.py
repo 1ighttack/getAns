@@ -1,4 +1,4 @@
-import requests, time, sys, getopt, random, re, warnings, urllib3
+import requests, time, sys, getopt, random, re, os
 
 def main(argv):
    try:
@@ -25,22 +25,9 @@ def main(argv):
 
 def Public_IP():
     try:
-        agent = user_agernt()
-        head = {
-            "User-Agent": random.choice(agent),
-            "Connection": "close",
-        }
-        urllib3.disable_warnings()
-        warnings.filterwarnings("ignore")
-        manages = "https://2022.ip138.com"
-        resultss = requests.get(manages, headers=head, verify=False, timeout=20)
-        resultss.encoding = 'utf-8'
-        ips = re.findall(r"<title>(.*?)</title>", resultss.text, re.S)
-        ans = re.findall(r"来自：(.*?)\n</p>", resultss.text, re.S)
-        results = str(ips) + " 归属地" + str(ans)
-        print(str(results))
+        return os.system("curl cip.cc")
     except Exception as e:
-        print("报错可能是请求过快，或者域名更换等原因。错误为:"+str(e))
+        print("报错可能是请求过快，或当前机器不出网等原因。错误为:"+str(e))
 
 def check(target):
     agent = user_agernt()
@@ -65,7 +52,7 @@ def liet(file):
             r = i.strip("\n")
             check(r)
             domain(r)
-            print("==============分隔符(域名反查默认输出前三个想看更多访问https://site.ip138.com/）==============")
+            print("==============分隔符==============")
             time.sleep(0.5)
 
 def domain(targtes):
@@ -81,10 +68,10 @@ def domain(targtes):
         ips = re.findall(r'class="name"><strong>(.*?)</strong>,', results, re.S)
         ipts = re.findall(r'</span><a href=".*?" target="_blank">(.*?)</a></li>', results, re.S)
         ert = ips + ipts
-        do = "绑定过的域名如下:"
-        results = str(ert[0:3])
+        do = "历史解析域名:"
+        resultsa = str(ert[0:3])
         print(do)
-        print(results)
+        print(resultsa)
     except Exception as e:
         print("报错啦！网络决定返回速度。错误为："+str(e))
 
